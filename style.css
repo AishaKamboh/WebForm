@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+h4,h1{
+    color: rgb(10, 10, 167);
+}
+.uper_container{
+    margin: 20px;
+    background-color: #f2f2f2;
+    padding: 15px 20px;
+    
+    height: 740px;
+}
+.p_container{
+   
+    width: 683px;
+    height: 325px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container{
+    width: 340px;
+    height: 323px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(54, 53, 53);
+    
+}
+.lower_container{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+    
+    
+}
+input[type="submit"]{
+    cursor: pointer;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+input[type="submit"]:hover{
+    background-color: #ccc;
+}
+
+.f_container{
+    margin-top: 20px;
+    
+}
+.d1_container{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    
+   
+    
+}
+.d_container{
+    float: left;
+    width: 45%;
+    padding-top: 10px;
+    
+    margin-left: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="chechbox"],
+textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid  #ccc;
+    border-radius: 1px;
+    margin: 7px;
+
+}
+h1{
+    font-size: 25px;
+}
